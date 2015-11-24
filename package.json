@@ -1,0 +1,16 @@
+{
+  "name": "angular2-helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "es6-shim": "^0.33.13",
+    "live-server": "^0.8.2"
+  },
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

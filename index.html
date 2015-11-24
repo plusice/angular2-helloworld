@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <title>Angular 2 QuickStart</title>
+    <!-- Angular 2 requires ES6 support -->
+    <script src="node_modules/es6-shim/es6-shim.js"></script>
+    <!-- System is the module loader (from the system.js library), a tool that can import code -->
+    <script src="https://code.angularjs.org/tools/system.js"></script>
+    <script src="https://code.angularjs.org/tools/typescript.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-alpha.44/angular2.dev.js"></script>
+    <script>
+      // System compiles typescript to javascript,depends on typescript.js
+      System.config({
+          transpiler: 'typescript',
+          typescriptOptions: {
+              emitDecoratorMetadata: true
+          }
+      });
+      System.import('./app.ts');
+    </script>
+</head>
+
+<body>
+    <my-app>loading...</my-app>
+</body>
+
+</html>
