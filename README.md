@@ -1,4 +1,4 @@
-###Angular 2 QuickStart(from angular.io) compiling typescript in browser
+###Angular 2 QuickStart(from angular.io) compiling typescript locally
 
-run `npm install` and then `npm start`
+run `npm install` -> `tsc -p src` -> `npm start`
 
