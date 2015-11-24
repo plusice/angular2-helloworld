@@ -1,3 +1,3 @@
-###Angular 2 QuickStart(from angular.io),the hero editor
+###Angular 2 QuickStart(from angular.io),in es6
 
-run `npm install` -> `tsc -p src` -> `npm start`
+
